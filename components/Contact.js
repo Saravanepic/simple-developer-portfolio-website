@@ -70,7 +70,7 @@ export default function Contact() {
                 </p>
               </div>
             </div>
-            <div className="social-icons flex flex-row space-x-8">
+            <div className="social-icons flex flex-row space-x-8 hidden ">
               <a
                 href={userData.socialLinks.facebook}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
@@ -171,12 +171,21 @@ export default function Contact() {
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
             ></textarea>
-            <button
+
+              <label
+              htmlFor=""
+              className="text-sm text-gray-600 mx-4 mt-4"
+            >
+              I am working on this integeration :D 
+            </label>
+              
+
+            {/*<button
               type="submit"
               className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
             >
               Send Message
-            </button>
+            </button>*/}
           </form>
         </div>
       </div>
