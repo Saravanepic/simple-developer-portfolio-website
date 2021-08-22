@@ -8,22 +8,83 @@ const userData = {
   address: "Bangalore, India.",
   projects: [
     {
-      title: "Brandenburg - WordPress / WIP",
+      title: "Brandenburg",
+      type:"WordPress / WIP",
       link: "https://pinklemonadedigital.com/branden_dev",
       imgUrl: "/bb.png",
     },
     {
-      title: "Lamiglas - Shopify / WIP",
+      title: "Lamiglas",
+      type:" Shopify / WIP",
       link: "https://www.lamiglas.com/",
       imgUrl: "/lami.png",
     },
     {
-      title: "Louloucup - Shopify",
+      title: "Louloucup",
+      type:" Shopify",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "Phlush",
+      type:" WordPress",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "Holdfolio",
+      type:" Shopify",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "REM Capital",
+      type:" Shopify",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "Buy FaceMask",
+      type:" Shopify",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "Louloucup",
+      type:" Shopify",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "LBUINC",
+      type:" Shopify",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "GoldenStateCanna",
+      type:" Shopify",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "315WorkAvenue",
+      type:" Shopify",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "LarusBio",
+      type:" Shopify",
       link: "https://www.louloucup.com/",
       imgUrl: "/louloucup.png",
     },
     
   ],
+  projectscontent:{
+    title:
+      "",
+  },
   about: {
     title:
       "I'm a developer that loves building high-quality responsive websites and web applications that impact millions of lives",

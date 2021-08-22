@@ -4,7 +4,7 @@ import AboutMe from "../components/AboutMe";
 
 export default function about() {
   return (
-    <ContainerBlock title="Projects - Saravan">
+    <ContainerBlock title="About - Saravan">
       <AboutMe />
     </ContainerBlock>
   );

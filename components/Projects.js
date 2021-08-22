@@ -9,12 +9,44 @@ export default function Projects() {
           Projects
         </h1>
       </div>
+      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
+        <div className="text-container max-w-6xl mx-auto pt-20">
+          <p
+            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+            style={{ lineHeight: "3rem" }}
+          >
+            {userData.projectscontent.title}
+
+            <p
+            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+            style={{ lineHeight: "3rem" }}
+          >
+          <span className="bg-red-500 rounded-md px-2 py-1 text-white">
+            They always say time⏲ changes things, 
+          </span>{" "}
+             so do my 🕸site's.
+             <br/><br/>
+            Do ping me if you are interested in any particular project discussion.
+          </p>
+           
+           <p
+            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+            style={{ lineHeight: "3rem" }}
+          >
+          Thanks to clients for still running them.
+          </p> 
+            
+
+          </p>
+        </div>
+      </div>
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
           {userData.projects.map((proj, idx) => (
             <ProjectCard
               title={proj.title}
+              type={proj.type}
               link={proj.link}
               imgUrl={proj.imgUrl}
               number={`${idx + 1}`}
@@ -26,9 +58,9 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title,type, link, imgUrl, number }) => {
   return (
-    <a href={link} className="w-full block shadow-2xl">
+    <a href={link} className="w-full block shadow-2xl" target="__blank">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <img
@@ -37,9 +69,15 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
             className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
           />
         </div>
+
+
         <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
           {title}
         </h1>
+        <h1 className="absolute top-10 right-10 text-gray-50 font-bold text-xl bg-[#10b981] rounded-md px-2">
+          {type}
+        </h1>
+
         <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
           {number.length === 1 ? "0" + number : number}
         </h1>
