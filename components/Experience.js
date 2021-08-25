@@ -45,7 +45,7 @@ const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
         {year}
       </h1>
       <h1 className="font-semibold text-xl">{title}</h1>
-      <a href={companyLink} className="font-semibold text-lg text-gray-700 dark:text-gray-300">
+      <a href={companyLink} className="font-semibold text-lg text-gray-700 dark:text-gray-300" target="_blank">
         {company}
       </a>
       <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>

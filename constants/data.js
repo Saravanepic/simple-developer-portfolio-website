@@ -87,7 +87,7 @@ const userData = {
   },
   about: {
     title:
-      "I'm a developer that loves building high-quality responsive websites and web applications that impact millions of lives",
+      "I’m a Dynamic and Creative Freelance Developer / Programmer that loves building top-notch responsive websites and web applications that impact millions of lives",
     description: [
       `I work on Front End, WordPress / Shopify (Custom Theme's) / Next.js `,
       `(Tag me if you are looking for a freelancer 😋 )`,
@@ -104,11 +104,11 @@ const userData = {
       company: "Pink Lemonade",
       year: "2020",
       companyLink: "http://www.pinklemonade.in/",
-      desc: "Took a step and changed my 1st job role. A new job is like a blank book and you are the author",
+      desc: "Took a step and changed the job. It's the start of something new.",
     },
     {
       title: "Freelancer",
-      company: "Multiple 😜",
+      company: "",
       year: "2020",
       companyLink: "",
       desc: "You can guess what i do now. Affordable, Reliable & Professional are my 3 main working principles to meet your everyday objectives.",
