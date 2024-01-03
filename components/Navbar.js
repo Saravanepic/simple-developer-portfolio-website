@@ -187,10 +187,10 @@ export default function Navbar() {
             </svg>
           </a>
           <button
-            aria-label="Toggle Dark Mode"
+            aria-label="Toggle Light Mode"
             type="button"
             className="w-10 h-10 p-3 rounded focus:outline-none"
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
           >
             {mounted && (
               <svg

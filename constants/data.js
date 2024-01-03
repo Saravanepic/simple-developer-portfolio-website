@@ -6,10 +6,58 @@ const userData = {
   email: "saravan1996.krishna@gmail.com",
   phone: "+91 9494962948",
   address: "Bangalore, India.",
-  projects: [
+  projects_wordpress: [
     {
       title: "Brandenburg",
-      type:"WordPress / WIP",
+      link: "https://pinklemonadedigital.com/branden_dev",
+      imgUrl: "/bb.png",
+    },
+    {
+      title: "Phlush",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "Holdfolio",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "REM Capital",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "Buy FaceMask",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "LBUINC",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "GoldenStateCanna",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "315WorkAvenue",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    {
+      title: "LarusBio",
+      link: "https://www.louloucup.com/",
+      imgUrl: "/louloucup.png",
+    },
+    
+  ],
+  projects_shopify: [
+    {
+      title: "Brandenburg",
+      type:"WordPress",
       link: "https://pinklemonadedigital.com/branden_dev",
       imgUrl: "/bb.png",
     },
@@ -89,6 +137,7 @@ const userData = {
     title:
       "I’m a Dynamic and Creative Freelance Developer / Programmer that loves building top-notch responsive websites and web applications that impact millions of lives",
     description: [
+      `#FrontEndMagic #CodeCraftsman #WebDevJourney 🚀`,
       `I work on Front End, WordPress / Shopify (Custom Theme's) / Next.js `,
       `(Tag me if you are looking for a freelancer 😋 )`,
       `The moment I fell in 💓 with front-end development was when I discovered the style.css file in WordPress themes. That’s where all the magic was to me. I could change a handful of lines in there and totally change the look and feel of a website. It’s an incredible game to play.`,
@@ -100,18 +149,25 @@ const userData = {
   },
   experience: [
     {
-      title: "Web Developer - That’s what they designated me as now 👩‍💻",
+      title: "Freelancer",
+      company: "",
+      year: "2020 - Now",
+      companyLink: "",
+      desc: "You can guess what i do now. Affordable, Reliable & Professional are my 3 main working principles to meet your everyday objectives.",
+    },
+    {
+      title: "Senior Web Developer",
+      company: "Outplay",
+      year: "2022",
+      companyLink: "https://outplayhq.com/",
+      desc: "Ensuring high performance and best user experience.",
+    },
+    {
+      title: "Web Developer",
       company: "Pink Lemonade",
       year: "2020",
       companyLink: "http://www.pinklemonade.in/",
       desc: "Took a step and changed the job. It's the start of something new.",
-    },
-    {
-      title: "Freelancer",
-      company: "",
-      year: "2020",
-      companyLink: "",
-      desc: "You can guess what i do now. Affordable, Reliable & Professional are my 3 main working principles to meet your everyday objectives.",
     },
     {
       title: "Software Engineer L1",

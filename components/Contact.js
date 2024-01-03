@@ -4,12 +4,16 @@ import userData from "@constants/data";
 export default function Contact() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
+      
+      {/* <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Contact
         </h1>
+      </div> */}
+      <div className="">
+      <div class="visme_d" data-title="Contact Us Contact Form" data-url="mxkz4e9j-contact-us-contact-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="10113"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
       </div>
-      <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+      {/* <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
@@ -180,15 +184,15 @@ export default function Contact() {
             </label>
               
 
-            {/*<button
+            <button
               type="submit"
               className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
             >
               Send Message
-            </button>*/}
+            </button>
           </form>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

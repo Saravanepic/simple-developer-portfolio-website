@@ -42,8 +42,17 @@ export default function Projects() {
       </div>
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
-          {userData.projects.map((proj, idx) => (
+
+      <div className="max-w-6xl mx-auto pt-10">
+        <div className="leading-loose text-2xl md:text-4xl font-semibold">
+          <span className="bg-red-500 rounded-md px-2 py-1 text-white">
+          WordPress Projects
+          </span>
+          </div>
+      </div>
+
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-10 pb-40">
+          {userData.projects_wordpress.map((proj, idx) => (
             <ProjectCard
               title={proj.title}
               type={proj.type}

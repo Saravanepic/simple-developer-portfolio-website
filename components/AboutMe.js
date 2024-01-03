@@ -65,6 +65,21 @@ export default function AboutMe() {
                 and I'd love to work for you.
               </p>
             </div>
+
+            <div className="mt-8">
+              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+                What i do most
+              </h1>
+              <ul className="text-lg text-gray-500 mt-4 dark:text-gray-300">
+                <li> <span className="my-4">&rarr;</span> Transforming Ideas into Interactive Experiences </li>
+                <li> <span className="my-4">&rarr;</span> HTML, CSS, JavaScript Enthusiast</li>
+                <li> <span className="my-4">&rarr;</span> UX/UI Advocate 🌐</li>
+                <li> <span className="my-4">&rarr;</span> Crafting Aesthetic and Intuitive Web Solutions</li>
+                <li> <span className="my-4">&rarr;</span> Continuous Learner 📚</li>
+                <li> <span className="my-4">&rarr;</span> Thrives in Collaborative Environments</li>
+              </ul>
+            </div>
+
             {/* Social Links */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Social Links
